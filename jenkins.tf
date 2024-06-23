@@ -80,7 +80,7 @@ resource "aws_security_group" "sg_jenkins" {
 
 resource "aws_key_pair" "jenkins-ec2-key" {
   key_name   = "jenkins-key"  // 定义密钥对的名称
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC6mPoSJ5lhle4/g8btnjJ5H+7gXk83ZgckmM0pkpo/31xh2uN92NYGS2iF8JkzJjnaJ/nvqZy6YOFJ2wfq6PWCyOxRSfyvFfoL1XGcsT2N31ry+lDWQCj/DbTSDG1MRB01c2z7iHDG7XDCCWbCOGYyj+WE+sPDc2MjceHXjDK12XQzgB/V4Rg4dvQNFQit6BhD6hSzOYLs5ObbZv39KVb6NmxdNoSKNzkB0SEJwviYRZMe0OQeyKFhMpE12f3XJRQ5zFmwdiqPHg5ZADQRP3RXwn8ODa2h7s7tkbhc13ebSogwPORwMecA0GDe0AcjyVlNEvvW5jb4mMFLq4pcmbS1 administrator@Win10-2023PPSOW"
+  public_key = ""
 
   tags = {
     Name = "jenkins-ec2-key"
